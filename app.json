@@ -1,7 +1,7 @@
 {
-  "name": "Telegram ProjectDils",
-  "description": "[ProjectDils] A modular Telegram userbot running on Python 3.7+ with an sqlalchemy database.",
-  "logo": "https://i.ibb.co/LR8gHDG/Project-Dils.png",
+  "name": "Telegram WolveRine",
+  "description": "[WolveRine] A modular Telegram userbot running on Python 3.7+ with an sqlalchemy database.",
+  "logo": "https://telegra.ph/file/64e35606cdb735527fd37.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/aidilaryanto/ProjectDils",
+  "repository": "https://github.com/ShadoWClub/wolverineuserbot",
   "website": "https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02",
-  "success_url": "https://t.me/userbotindo",
+  "success_url": "https://t.me/WolverineChat",
   "stack": "container",
   "env": {
     "API_KEY": {
