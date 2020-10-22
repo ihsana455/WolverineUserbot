@@ -40,15 +40,3 @@ Google Drive setup tutorial:
 ## Groups and Support
 Join [ThunDer Support Group](https://t.me/ThunderSupportChat) for discussion, bug reporting, and help.
 
-## Credits
-* [RaphielGang](https://github.com/RaphielGang) - Telegram-Paperplane
-* [AvinashReddy3108](https://github.com/AvinashReddy3108) - PaperplaneExtended
-* [Mkaraniya](https://github.com/mkaraniya) & [Dev73](https://github.com/Devp73) - OpenUserBot
-* [Mr.Miss](https://github.com/keselekpermen69) - UserButt
-* [adekmaulana](https://github.com/adekmaulana) - ProjectBish
-* [MoveAngel](https://github.com/MoveAngel) - One4uBot
-
-And [others](https://github.com/aidilaryanto/ProjectDils/graphs/contributors) that help to make this userbot awesome.
-
-## License
-Licensed under [Raphielscape Public License](https://github.com/aidilaryanto/ProjectDils/blob/master/LICENSE) - Version 1.d, February 2020
