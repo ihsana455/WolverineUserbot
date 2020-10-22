@@ -35,8 +35,8 @@ async def speedtst(spd):
         f"{speed_convert(result['download'])} \n"
         "Upload "
         f"{speed_convert(result['upload'])} \n"
-        "Ping "
-        f"{result['ping']} \n"
+        "ding "
+        f"{result['ding']} \n"
         "ISP "
         f"{result['client']['isp']}"
         "`"
@@ -65,20 +65,20 @@ async def neardc(event):
     )
 
 
-@register(outgoing=True, pattern=r"^\.ping$")
-async def pingme(pong):
-    """For .ping command, ping the userbot from any chat."""
+@register(outgoing=True, pattern=r"^\.ding$")
+async def dingme(dong):
+    """For .ding command, ding the userbot from any chat."""
     start = datetime.now()
-    await pong.edit("`Pong!`")
+    await dong.edit("`dong!`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit("`Pong!\n%sms`" % (duration))
+    await dong.edit("`█▀█ █▀█ █▄░█ █▀▀ █  /n█▀▀ █▄█ █░▀█ █▄█ ▄\n%sms`" % (duration))
 
 
 CMD_HELP.update(
     {
         "speed": ">`.speed`" "\nUsage: Does a speedtest and shows the results.",
         "dc": ">`.dc`" "\nUsage: Finds the nearest datacenter from your server.",
-        "ping": ">`.ping`" "\nUsage: Shows how long it takes to ping your bot.",
+        "ding": ">`.ding`" "\nUsage: Shows how long it takes to ding your bot.",
     }
 )
