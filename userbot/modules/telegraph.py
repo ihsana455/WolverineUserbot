@@ -74,7 +74,7 @@ async def telegraphs(graph):
                     title_of_page, html_content=page_content
                 )
                 await graph.edit(
-                    "Successfully uploaded to [telegra.ph](https://telegra.ph/{}).".format(
+                    "Successfully uploaded to [𝙃𝙚𝙧𝙚 𝙮𝙤𝙪𝙧 𝙩𝙚𝙡𝙚𝙜𝙧𝙖.𝙥𝙝 𝙡𝙞𝙣𝙠 !](https://telegra.ph/{}).".format(
                         response["path"]
                     ),
                     link_preview=True,
