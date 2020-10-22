@@ -242,12 +242,12 @@ async def amireallyalive(alive):
     """For .alive command, check if the bot is running."""
     uptime = await get_readable_time((time.time() - StartTime))
     output = (
-        "**Wolverine is alive😻**\n"
+        "**Wolverine is alive🦊**\n"
         f"`•••••••••••••••••••••••••••••••••••••`\n"
         f"🧒 `User           :`  {DEFAULTUSER}\n"
         f"🔥 `Python         : v{python_version()}`\n"
         f"⚙️ `Telethon       : v{version.__version__}`\n"
-        f"🤖 `Wolverine    : v{PROJECTDILS_VERSION}`\n"
+        f"🐺 `Wolverine    : v{PROJECTDILS_VERSION}`\n"
         f"⛄ `Loaded Modules : {len(modules)}`\n"
         f"📟 `Bot Speed     : {uptime} `\n"
         f"`•••••••••••••••••••••••••••••••••••••`\n"
