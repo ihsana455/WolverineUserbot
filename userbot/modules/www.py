@@ -72,7 +72,7 @@ async def dingme(dong):
     await dong.edit("`dong!`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await dong.edit("`█▀█ █▀█ █▄░█ █▀▀ █  /n█▀▀ █▄█ █░▀█ █▄█ ▄\n%sms`" % (duration))
+    await dong.edit("`█▀█ █▀█ █▄░█ █▀▀ █ \n█▀▀ █▄█ █░▀█ █▄█ ▄`\n ➲ `{ms}` \n ➲ `{uptime}`")
 
 
 CMD_HELP.update(
