@@ -242,15 +242,16 @@ async def amireallyalive(alive):
     """For .alive command, check if the bot is running."""
     uptime = await get_readable_time((time.time() - StartTime))
     output = (
-        "`ProjectDils is running...`\n"
+        "**Wolverine is alive😻**\n"
         f"`•••••••••••••••••••••••••••••••••••••`\n"
-        f"👤 `User           :`  {DEFAULTUSER}\n"
-        f"🐍 `Python         : v{python_version()}`\n"
+        f"🧒 `User           :`  {DEFAULTUSER}\n"
+        f"🔥 `Python         : v{python_version()}`\n"
         f"⚙️ `Telethon       : v{version.__version__}`\n"
-        f"🤖 `ProjectDils    : v{PROJECTDILS_VERSION}`\n"
-        f"🧩 `Loaded Modules : {len(modules)}`\n"
-        f"🕒 `Bot Uptime     : {uptime} `\n"
+        f"🤖 `Wolverine    : v{PROJECTDILS_VERSION}`\n"
+        f"⛄ `Loaded Modules : {len(modules)}`\n"
+        f"📟 `Bot Speed     : {uptime} `\n"
         f"`•••••••••••••••••••••••••••••••••••••`\n"
+        f"🖥️**WolVeriNe      : [Deploy](https://github.com/ShadoWClub/WolverineUserbot)"
     )
     if ALIVE_LOGO:
         try:
