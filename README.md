@@ -1,4 +1,4 @@
-# ProjecDils Userbot
+# ThunDer Userbot
 
 <p align="center">
     <a href="https://github.com/aidilaryanto/ProjectDils/actions?query=workflow%3AFailCheck" > <img src="https://img.shields.io/github/workflow/status/aidilaryanto/ProjectDils/FailCheck/master?color=red&style=for-the-badge&logo=github-actions&logoColor=white" alt="Failcheck" /></a>
@@ -53,7 +53,7 @@ Google Drive setup tutorial:
 <p align="center"><a href="https://telegra.ph/How-To-Setup-Google-Drive-04-03"> <img src="https://telegra.ph/file/9a6727fa0a8c631caf294.png" alt="Google Drive Setup" width="200" height="33.33"/></a></p>
 
 ## Groups and Support
-Join [Userbotindo Support Group](https://t.me/userbotindo) for discussion, bug reporting, and help.
+Join [ThunDer Support Group](https://t.me/ThunderSupportChat) for discussion, bug reporting, and help.
 
 ## Credits
 * [RaphielGang](https://github.com/RaphielGang) - Telegram-Paperplane
