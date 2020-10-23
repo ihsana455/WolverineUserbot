@@ -46,7 +46,7 @@ async def paste(pstl):
             message = message.message
 
     # Dogbin
-    await pstl.edit("`Pasting text . . .`")
+    await pstl.edit("`Pasting text . . .⏳`")
     resp = post(DOGBIN_URL + "documents", data=message.encode("utf-8"))
 
     if resp.status_code == 200:
@@ -56,7 +56,7 @@ async def paste(pstl):
 
         if response["isUrl"]:
             reply_text = (
-                "`Pasted successfully!`\n\n"
+                "`Pasted successfully📥`\n\n"
                 f"[Shortened URL]({dogbin_final_url})\n\n"
                 "`Original(non-shortened) URLs`\n"
                 f"[Dogbin URL]({DOGBIN_URL}v/{key})\n"
@@ -64,18 +64,18 @@ async def paste(pstl):
             )
         else:
             reply_text = (
-                "`Pasted successfully!`\n\n"
+                "`Pasted successfully📥`\n\n"
                 f"[Dogbin URL]({dogbin_final_url})\n"
                 f"[View RAW]({DOGBIN_URL}raw/{key})"
             )
     else:
-        reply_text = "`Failed to reach Dogbin`"
+        reply_text = "`Failed to reach Dogbin😕`"
 
     await pstl.edit(reply_text)
     if BOTLOG:
         await pstl.client.send_message(
             BOTLOG_CHATID,
-            "Paste query was executed successfully",
+            "Paste query was executed successfully😃",
         )
 
 
@@ -121,14 +121,14 @@ async def get_dogbin_content(dog_url):
         return
 
     reply_text = (
-        "`Fetched dogbin URL content successfully!`" "\n\n`Content:` " + resp.text
+        "`Fetched dogbin URL content successfully📡`" "\n\n`Content:` " + resp.text
     )
 
     await dog_url.edit(reply_text)
     if BOTLOG:
         await dog_url.client.send_message(
             BOTLOG_CHATID,
-            "Get dogbin content query was executed successfully",
+            "Get dogbin content query was executed successfully📥",
         )
 
 
@@ -162,7 +162,7 @@ async def neko(nekobin):
             message = message.text
 
     # Nekobin
-    await nekobin.edit("`Pasting text . . .`")
+    await nekobin.edit("`Pasting text . . .⌛`")
     resp = post(NEKOBIN_URL + "api/documents", json={"content": message})
 
     if resp.status_code == 201:
@@ -175,13 +175,13 @@ async def neko(nekobin):
             f"[View RAW]({NEKOBIN_URL}raw/{key})"
         )
     else:
-        reply_text = "`Failed to reach Nekobin`"
+        reply_text = "`Failed to reach Nekobin😕`"
 
     await nekobin.edit(reply_text)
     if BOTLOG:
         await nekobin.client.send_message(
             BOTLOG_CHATID,
-            "Paste query was executed successfully",
+            "Paste query was executed successfully😃",
         )
 
 
