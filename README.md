@@ -1,6 +1,7 @@
 # WolveRine Userbot
 
 ![Build Status](https://travis-ci.com/ShadoWClub/wolverineuserbot.svg?branch=sql-extended)[![Codacy Badge](https://app.codacy.com/project/badge/Grade/38fee611df7c4312be63a15cad64a50a)](https://www.codacy.com/manual/ShadoWClub/wolverineuserbot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ShadoWClub/wolverineuserbot&amp;utm_campaign=Badge_Grade) ![Last Commit](https://img.shields.io/github/last-commit/shadowclub/wolverineuserbot) ![Contributers](https://img.shields.io/github/contributors/ShadoWClub/wolverineuserbot) ![Forks](https://img.shields.io/github/forks/shadowclub/wolverineuserbot)     
+<a herf="https://hub.docker.com/r/ShadoWClub/groovy"><img src="https://img.shields.io/docker/image-size/ShadoWClub/wolverineuserbot/groovy?color=red&label=Docker%20Size&style=for-the-badge&logo=docker&logoColor=white" alt="docker" /></a></br>
 
 <p align="center">
 <img src="https://telegra.ph/file/f90dcf7aa0e4daf69348b.jpg" alt="WOLVERINE USERBOT">
