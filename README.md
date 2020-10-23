@@ -5,3 +5,8 @@
 <p align="center">
 <img src="https://telegra.ph/file/f90dcf7aa0e4daf69348b.jpg" alt="WOLVERINE USERBOT">
 
+
+## How To Host
+Deploy WolveRine to Heroku:
+
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ShadoWClub/wolverine/tree/master"> <img src="https://telegra.ph/file/3d5baaff9cbb43c5a525e.png" alt="Deploy to Heroku" width="200" height="33.33"/></a></p>
