@@ -41,7 +41,7 @@
     },
     "UPSTREAM_REPO_URL": {
       "description": "In case you maintain a fork, add your repo URL here.",
-      "value": "https://github.com/aidilaryanto/ProjectDils",
+      "value": "https://github.com/ShadoWClub/WolverineUserBot",
       "required": false
     },
     "COUNTRY": {
@@ -124,7 +124,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default profile bio.",
-      "value": "ProjectDils",
+      "value": "wolverine",
       "required": false
     },
     "ALIVE_NAME": {
@@ -133,7 +133,7 @@
     },
     "ALIVE_LOGO": {
       "description": "Show image/logo in .alive/on message",
-      "value": "https://telegra.ph/file/36df725e1554826a2dfda.png",
+      "value": "https://telegra.ph/file/2b798c54f7da9245410ac.jpg",
       "required": false
     },
     "G_DRIVE_DATA": {
