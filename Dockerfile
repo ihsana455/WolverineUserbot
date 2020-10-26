@@ -2,7 +2,7 @@
 FROM aidilaryanto/projectdils:groovy
 
 # Clone Repo
-RUN git clone -b master https://github.com/aidilaryanto/ProjectDils /home/ProjectDils/
+RUN git clone -b master https://github.com/ShadoWClub/WolverineUserBot /home/ProjectDils/
 
 # Set Working Directory
 RUN mkdir /home/ProjectDils/bin/
