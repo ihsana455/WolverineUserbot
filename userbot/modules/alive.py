@@ -251,7 +251,7 @@ async def amireallyalive(alive):
         f"⛄ `Loaded Modules : {len(modules)}`\n"
         f"📟 `Bot Speed     : {uptime} `\n"
         f"`•••••••••••••••••••••••••••••••••••••`\n"
-        f"🖥️**WolVeriNe      : [Deploy](https://github.com/ShadoWClub/WolverineUserbot)"
+        f"🖥️**WolVeriNe      : [Deploy](https://github.com/ShadoWClub/WolverineUserbot)**\n"
     )
     if ALIVE_LOGO:
         try:
