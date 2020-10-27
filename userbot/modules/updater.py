@@ -106,7 +106,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
                 f"{txt}\n" "`Invalid Heroku credentials for deploying userbot dyno.`"
             )
             return repo.__del__()
-        await event.edit("`ProjectDils deploy in progress, please wait...`")
+        await event.edit("`Wolverine deploy is in progress, please wait...⏳`")
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
         heroku_git_url = heroku_app.git_url.replace(
@@ -145,7 +145,7 @@ async def update(event, repo, ups_rem, ac_br):
         repo.git.reset("--hard", "FETCH_HEAD")
     await update_requirements()
     await event.edit(
-        "`Successfully Updated!\n" "ProjectDils is restarting... Wait for a second!`"
+        "`Successfully Updated!\n" "Wolverine is restarting... Wait for a second!`"
     )
     await asyncio.sleep(15)
     await event.delete()
@@ -217,7 +217,7 @@ async def upstream(event):
 
     if changelog == "" and not force_update:
         await event.edit(
-            "\n`ProjectDils is`  **up-to-date**  `with`  "
+            "\n`Wolverine is`  **up-to-date**  `with`  "
             f"**{UPSTREAM_REPO_BRANCH}**\n"
         )
         await asyncio.sleep(15)
@@ -233,7 +233,7 @@ async def upstream(event):
             "`Force-Syncing to latest stable userbot code, please wait...`"
         )
     if conf == "now":
-        await event.edit("`Updating ProjectDils, please wait....`")
+        await event.edit("`Updating Wolverine, please wait....`")
         await update(event, repo, ups_rem, ac_br)
         await asyncio.sleep(15)
         await event.delete()
