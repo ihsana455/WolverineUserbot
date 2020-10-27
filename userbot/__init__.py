@@ -307,7 +307,7 @@ with bot:
                 result = builder.article(
                     "Please Use Only With .help Command",
                     text="{}\nTotal loaded modules: {}".format(
-                        "Wolverine modules Guide 🔥.\n",
+                        "WolverineUserbot modules Guide 🔥.\n",
                         len(dugmeler),
                     ),
                     buttons=buttons,
