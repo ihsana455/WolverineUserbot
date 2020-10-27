@@ -27,7 +27,7 @@ async def _(event):
     if not reply_message.media:
         await event.edit("`reply to a image/sticker/video`")
         return
-    await event.edit("`Downloading Media..`")
+    await event.edit("`Downloading Media..📥`")
     if reply_message.photo:
         await bot.download_media(
             reply_message,
@@ -55,7 +55,7 @@ async def _(event):
             "wc.png",
         )
     try:
-        await event.edit("`Processing..`")
+        await event.edit("`Processing..⌛`")
         text = open("resources/alice.txt", encoding="utf-8").read()
         image_color = np.array(Image.open("wc.png"))
         image_color = image_color[::1, ::1]
