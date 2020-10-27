@@ -20,7 +20,7 @@ async def telegraphs(grop):
         try:
             result = await grop.client(
                 functions.messages.CreateChatRequest(  # pylint:disable=E0602
-                    users=["@userbotindobot"],
+                    users=["@MissLillyBot"],
                     # Not enough users (to create a chat, for example)
                     # Telegram, no longer allows creating a chat with ourselves
                     title=group_name,
@@ -33,7 +33,7 @@ async def telegraphs(grop):
                 )
             )
             await grop.edit(
-                "Your {0} Group Created Successfully. Click [{0}]({1}) to join".format(
+                "Your {0} Group Created Successfully 🤩.... Click [{0}]({1}) to join".format(
                     group_name, result.link
                 )
             )
@@ -44,7 +44,7 @@ async def telegraphs(grop):
             r = await grop.client(
                 functions.channels.CreateChannelRequest(  # pylint:disable=E0602
                     title=group_name,
-                    about="Welcome to this Channel",
+                    about="Welcome to this Channel 🥳",
                     megagroup=not bool(type_of_group == "c"),
                 )
             )
@@ -55,7 +55,7 @@ async def telegraphs(grop):
                 )
             )
             await grop.edit(
-                "Your {0} Group/Channel Created Successfully. Click [{0}]({1}) to join".format(
+                "Your {0} Group/Channel Created Successfully 🤩.... Click [{0}]({1}) to join".format(
                     group_name, result.link
                 )
             )
