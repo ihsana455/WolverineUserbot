@@ -100,7 +100,7 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """For .repo command, just returns the repo URL."""
     await wannasee.edit(
-        "click [Here](https://github.com/aidilaryanto/ProjectDils) to open ProjectDils repo.."
+        "click [Here](https://github.com/shadowclub/WolverineUserbot) to oopen Wolverine🥰 repo.."
     )
 
 
