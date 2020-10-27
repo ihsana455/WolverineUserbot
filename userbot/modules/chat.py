@@ -75,7 +75,7 @@ async def log(log_text):
 @register(outgoing=True, pattern=r"^\.kickme$")
 async def kickme(leave):
     """Basically it's .kickme command"""
-    await leave.edit("Nope, no, no, I go away")
+    await leave.edit("Kek , Me is leaving thiz hell 🏃")
     await leave.client.kick_participant(leave.chat_id, "me")
 
 
@@ -87,7 +87,7 @@ async def unmute_chat(unm_e):
     except AttributeError:
         return await unm_e.edit("`Running on Non-SQL Mode!`")
     unkread(str(unm_e.chat_id))
-    await unm_e.edit("```Unmuted this chat Successfully```")
+    await unm_e.edit("```Unmuted this chat Successfully, now u can chat 😃```")
     await sleep(2)
     await unm_e.delete()
 
@@ -101,7 +101,7 @@ async def mute_chat(mute_e):
         return await mute_e.edit("`Running on Non-SQL mode!`")
     await mute_e.edit(str(mute_e.chat_id))
     kread(str(mute_e.chat_id))
-    await mute_e.edit("`Shush! This chat will be silenced!`")
+    await mute_e.edit("`Shush! This chat will be silenced🤫`")
     await sleep(2)
     await mute_e.delete()
     if BOTLOG:
