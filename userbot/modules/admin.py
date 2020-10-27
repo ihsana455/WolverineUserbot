@@ -86,7 +86,7 @@ UNMUTE_RIGHTS = ChatBannedRights(until_date=None, send_messages=False)
 async def set_group_photo(gpic):
     """For .setgpic command, changes the picture of a group"""
     if not gpic.is_group:
-        await gpic.edit("`I don't think this is a group.`")
+        await gpic.edit("`I don't think this is a group🙁`")
         return
     replymsg = await gpic.get_reply_message()
     chat = await gpic.get_chat()
@@ -98,7 +98,7 @@ async def set_group_photo(gpic):
         return await gpic.edit(NO_ADMIN)
 
     if replymsg and replymsg.media:
-        await gpic.edit("`Changing Chat Picture`")
+        await gpic.edit("`Changing Chat Picture⌛`")
         if isinstance(replymsg.media, MessageMediaPhoto):
             photo = await gpic.client.download_media(message=replymsg.photo)
         elif "image" in replymsg.media.document.mime_type.split("/"):
@@ -151,7 +151,7 @@ async def promote(promt):
     # Try to promote if current user is admin or creator
     try:
         await promt.client(EditAdminRequest(promt.chat_id, user.id, new_rights, rank))
-        await promt.edit("`Promoted Successfully!`")
+        await promt.edit("`Promoted Successfully..👑 now gib me 🎉🍻🎈`")
     except RightForbiddenError:
         return await promt.edit(NO_PERM)
 
@@ -206,7 +206,7 @@ async def demote(dmod):
     # Assume we don't have permission to demote
     except BadRequestError:
         return await dmod.edit(NO_PERM)
-    await dmod.edit("`Demoted Successfully!`")
+    await dmod.edit("`Demoted Successfully🙁`")
 
     # Announce to the logging group if we have demoted successfully
     if BOTLOG:
@@ -235,7 +235,7 @@ async def ban(bon):
         return
 
     # Announce that we're going to whack the pest
-    await bon.edit("`Whacking the pest!`")
+    await bon.edit("`Whacking the pest💀`")
 
     try:
         await bon.client(EditBannedRequest(bon.chat_id, user.id, BANNED_RIGHTS))
@@ -248,7 +248,7 @@ async def ban(bon):
             await reply.delete()
     except BadRequestError:
         return await bon.edit(
-            "`I dont have message nuking rights! But still he was banned!`"
+            "`I dont have message nuking rights! But still he was banned☠️`"
         )
     # Delete message and then tell that the command
     # is done gracefully
@@ -297,7 +297,7 @@ async def nothanos(unbon):
 
     try:
         await unbon.client(EditBannedRequest(unbon.chat_id, user.id, UNBAN_RIGHTS))
-        await unbon.edit("```Unbanned Successfully```")
+        await unbon.edit("```Unbanned Successfully😇```")
 
         if BOTLOG:
             await unbon.client.send_message(
@@ -336,7 +336,7 @@ async def spider(spdr):
 
     if user.id == self_user.id:
         return await spdr.edit(
-            "`Hands too short, can't duct tape myself...\n(ヘ･_･)ヘ┳━┳`"
+            "`Hands too short, can't duct tape myself...\n(ヘ･_･)ヘ┳━┳🎃`"
         )
 
     # If everything goes well, do announcing and mute
@@ -396,7 +396,7 @@ async def unmoot(unmot):
 
         try:
             await unmot.client(EditBannedRequest(unmot.chat_id, user.id, UNBAN_RIGHTS))
-            await unmot.edit("```Unmuted Successfully```")
+            await unmot.edit("```Unmuted Successfully🥳```")
 
         except UserIdInvalidError:
             return await unmot.edit("`Uh oh my unmute logic broke!`")
@@ -480,7 +480,7 @@ async def ungmoot(un_gmute):
         await un_gmute.edit("`Error! User probably not gmuted.`")
     else:
         # Inform about success
-        await un_gmute.edit("```Ungmuted Successfully```")
+        await un_gmute.edit("```Ungmuted Successfully🤩```")
         await sleep(3)
         await un_gmute.delete()
 
@@ -523,7 +523,7 @@ async def gspider(gspdr):
         if reason:
             await gspdr.edit(f"`Globally taped!`\nReason: {reason}")
         else:
-            await gspdr.edit("`Globally taped!`")
+            await gspdr.edit("`Globally taped😈`")
 
         if BOTLOG:
             await gspdr.client.send_message(
