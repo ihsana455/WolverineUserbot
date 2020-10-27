@@ -86,7 +86,7 @@ async def on_delete_blacklist(rmbl):
     if not successful:
         await rmbl.edit("`Blacklist` **{}** `doesn't exist.`".format(text))
     else:
-        await rmbl.edit("`Blacklist` **{}** `was deleted successfully`".format(text))
+        await rmbl.edit("`Blacklist` **{}** `was deleted successfully😃`".format(text))
 
 
 CMD_HELP.update(
