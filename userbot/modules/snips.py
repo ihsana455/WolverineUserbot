@@ -53,7 +53,7 @@ async def on_snip_save(event):
             await event.client.send_message(
                 BOTLOG_CHATID,
                 f"#SNIP\nKEYWORD: {keyword}"
-                "\n\nThe following message is saved as the data for the snip, "
+                "\n\nThe following message is saved as the data for the snip😃, "
                 "please do NOT delete it !!",
             )
             msg_o = await event.client.forward_messages(
