@@ -19,7 +19,7 @@ async def letter_spam(cspammer):
         await cspammer.respond(letter)
     if BOTLOG:
         await cspammer.client.send_message(
-            BOTLOG_CHATID, "#CSPAM\n" "TSpam was executed successfully"
+            BOTLOG_CHATID, "#CSPAM\n" "TSpam was executed successfully☠️"
         )
 
 
@@ -32,7 +32,7 @@ async def word_spam(wspammer):
         await wspammer.respond(word)
     if BOTLOG:
         await wspammer.client.send_message(
-            BOTLOG_CHATID, "#WSPAM\n" "WSpam was executed successfully"
+            BOTLOG_CHATID, "#WSPAM\n" "WSpam was executed successfully☠️"
         )
 
 
@@ -44,7 +44,7 @@ async def spammers(spammer):
     await asyncio.wait([spammer.respond(spam_message) for i in range(counter)])
     if BOTLOG:
         await spammer.client.send_message(
-            BOTLOG_CHATID, "#SPAM\n" "Spam was executed successfully"
+            BOTLOG_CHATID, "#SPAM\n" "Spam was executed successfully😈"
         )
 
 
@@ -59,7 +59,7 @@ async def tiny_pic_spam(pspam):
         await pspam.client.send_file(e.chat_id, link)
     if BOTLOG:
         await pspwm.client.send_message(
-            BOTLOG_CHATID, "#PICSPAM\n" "PicSpam was executed successfully"
+            BOTLOG_CHATID, "#PICSPAM\n" "PicSpam was executed successfully😈"
         )
 
 
@@ -74,7 +74,7 @@ async def delay_spam(dspam):
         await sleep(spamDelay)
     if BOTLOG:
         await dspam.client.send_message(
-            BOTLOG_CHATID, "#DelaySPAM\n" "DelaySpam was executed successfully"
+            BOTLOG_CHATID, "#DelaySPAM\n" "DelaySpam was executed successfully☠️"
         )
 
 
