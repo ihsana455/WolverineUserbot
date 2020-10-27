@@ -29,7 +29,7 @@ async def capture(url):
     if link_match:
         link = link_match.group()
     else:
-        return await url.edit("`I need a valid link to take screenshots from.`")
+        return await url.edit("`I need a valid link to take screenshots from 😕`")
     driver.get(link)
     height = driver.execute_script(
         "return Math.max(document.body.scrollHeight, document.body.offsetHeight, "
@@ -44,7 +44,7 @@ async def capture(url):
     driver.set_window_size(width + 125, height + 125)
     wait_for = height / 1000
     await url.edit(
-        "`Generating screenshot of the page...`"
+        "`Generating screenshot of the page...⌛`"
         f"\n`Height of page = {height}px`"
         f"\n`Width of page = {width}px`"
         f"\n`Waiting ({int(wait_for)}s) for the page to load.`"
@@ -58,7 +58,7 @@ async def capture(url):
         message_id = url.reply_to_msg_id
     with io.BytesIO(im_png) as out_file:
         out_file.name = "screencapture.png"
-        await url.edit("`Uploading screenshot as file..`")
+        await url.edit("`Uploading screenshot as file..📲`")
         await url.client.send_file(
             url.chat_id,
             out_file,
