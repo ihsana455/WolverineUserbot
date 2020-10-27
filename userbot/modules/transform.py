@@ -23,7 +23,7 @@ async def transform(event):
     if not reply_message.media:
         await event.edit("`reply to a image/sticker`")
         return
-    await event.edit("`Downloading Media..`")
+    await event.edit("`Downloading Media..📥`")
     if (
         DocumentAttributeFilename(file_name="AnimatedSticker.tgs")
         in reply_message.media.document.attributes
@@ -50,7 +50,7 @@ async def transform(event):
             "transform.png",
         )
     try:
-        await event.edit("`Transforming this media..`")
+        await event.edit("`Transforming this media..⏳`")
         cmd = event.pattern_match.group(1)
         im = Image.open(transform).convert("RGB")
         if cmd == "mirror":
@@ -84,7 +84,7 @@ async def rotate(event):
     if not reply_message.media:
         await event.edit("`reply to a image/sticker`")
         return
-    await event.edit("`Downloading Media..`")
+    await event.edit("`Downloading Media..📥`")
     if (
         DocumentAttributeFilename(file_name="AnimatedSticker.tgs")
         in reply_message.media.document.attributes
@@ -116,7 +116,7 @@ async def rotate(event):
             raise ValueError
     except ValueError:
         value = 90
-    await event.edit("`Rotating your media..`")
+    await event.edit("`Rotating your media..⏳`")
     im = Image.open(rotate).convert("RGB")
     IMG = im.rotate(value, expand=1)
     IMG.save(Converted, quality=95)
