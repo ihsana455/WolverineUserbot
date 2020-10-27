@@ -124,7 +124,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default profile bio.",
-      "value": "wolverine",
+      "value": "wolverine is alive ♥",
       "required": false
     },
     "ALIVE_NAME": {
