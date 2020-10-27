@@ -3,7 +3,7 @@
 # Licensed under the Raphielscape Public License, Version 1.c (the "License");
 # you may not use this file except in compliance with the License.
 #
-""" WolveRine initialization. """
+""" WolverineUserbot initialization. """
 
 
 import os
@@ -293,7 +293,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("I'm [Wolverine](https://github.com/ShaDowClub/WolverineUserbot) modules helper...\nplease make your own bot, don't use mine 😋 @WolverineChat")
+                await event.reply("I'm [WolverineUserbot](https://github.com/ShaDowClub/WolverineUserbot) modules helper...\nplease make your own bot, don't use mine 😋 @WolverineChat")
             else:
                 await event.reply(f"`Hey there {ALIVE_NAME}\n\nI work for you :)`")
 
@@ -315,13 +315,13 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "ProjectDils Helper",
+                    "WolverineUserbot Helper",
                     text="List of Modules",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    "Wolverine",
+                    "WolverineUserbot",
                     text="""You can convert your account to bot and use them. Remember, you can't manage someone else's bot! All installation details are explained from GitHub address below.""",
                     buttons=[
                         [
