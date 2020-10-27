@@ -25,14 +25,14 @@ from userbot.events import register
 
 @register(pattern=r"^\.chatinfo(?: |$)(.*)", outgoing=True)
 async def info(event):
-    await event.edit("`Analysing the chat...`")
+    await event.edit("`Analysing the chat...⌛`")
     chat = await get_chatinfo(event)
     caption = await fetch_info(chat, event)
     try:
         await event.edit(caption, parse_mode="html")
     except Exception as e:
         print("Exception:", e)
-        await event.edit("`An unexpected error has occurred.`")
+        await event.edit("`An unexpected error has occurred🤕`")
     return
 
 
@@ -57,7 +57,7 @@ async def get_chatinfo(event):
         try:
             chat_info = await event.client(GetFullChannelRequest(chat))
         except ChannelInvalidError:
-            await event.edit("`Invalid channel/group`")
+            await event.edit("`Invalid channel/group 😕`")
             return None
         except ChannelPrivateError:
             await event.edit(
