@@ -244,13 +244,21 @@ async def amireallyalive(alive):
     output = (
         "**Wolverine is alive🦊**\n"
         f"`•••••••••••••••••••••••••••••••••••••`\n"
+        
         f"🧒 `User           :`  {DEFAULTUSER}\n"
+        
         f"🔥 `Python         : v{python_version()}`\n"
+        
         f"⚙️ `Telethon       : v{version.__version__}`\n"
+        
         f"🐺 `Wolverine    : v{PROJECTDILS_VERSION}`\n"
+        
         f"⛄ `Loaded Modules : {len(modules)}`\n"
+        
         f"📟 `Bot Speed     : {uptime} `\n"
+        
         f"`•••••••••••••••••••••••••••••••••••••`\n"
+        
         f"🖥️**WolVeriNe      : [Deploy](https://github.com/ShadoWClub/WolverineUserbot)**\n"
     )
     if ALIVE_LOGO:
