@@ -7,6 +7,11 @@
 
 <p align="center">
 <img src="https://telegra.ph/file/f90dcf7aa0e4daf69348b.jpg" alt="WOLVERINE USERBOT">
+  
+  How to deploy Wolverine Userbot
+<a href="https://youtu.be/aPU334icQSM"><img src="https://img.shields.io/badge/How%20To%20Deploy-LATEST-blue.svg?logo=Youtube"></a>
+<a href="https://youtu.be/aPU334icQSM"><img src="https://img.shields.io/youtube/views/aPU334icQSM?style=social">
+
 
 Best Userbot to manage your account 😻
 
