@@ -11,15 +11,7 @@
 </p>
 <a href="https://youtu.be/oRhG3Xsukcc"><img src="https://img.shields.io/badge/How%20To%20Deploy-LATEST-blue.svg?logo=Youtube"></a>
 <a href="https://youtu.be/oRhG3Xsukcc"><img src="https://img.shields.io/youtube/views/aPU334icQSM?style=social">
-
-
-Best Userbot to manage your account 😻
-
-
-## Most powerfull And better Telegram UserBot
-
-## By Team Shadow Gang
-
+vvvvv. 
 
 ## How To Host
 Deploy WolveRine to Heroku:
