@@ -245,21 +245,21 @@ async def amireallyalive(alive):
         "**Wolverine is alive🦊**\n"
         f"`•••••••••••••••••••••••••••••••••••••`\n"
         
-        f"🧒 `User           :`  {DEFAULTUSER}\n"
+        f"🧒 ` 𝙐𝙨𝙚𝙧           :  {DEFAULTUSER}`\n"
         
-        f"🔥 `Python         : v{python_version()}`\n"
+        f"🔥 `𝙋𝙮𝙩𝙝𝙤𝙣 𝙑𝙚𝙧𝙨𝙞𝙤𝙣    : v{python_version()}`\n"
         
-        f"⚙️ `Telethon       : v{version.__version__}`\n"
+        f"⚙️ `𝙏𝙚𝙡𝙚𝙩𝙝𝙤𝙣 𝙑𝙚𝙧𝙨𝙞𝙤𝙣  : v{version.__version__}`\n"
         
-        f"🐺 `Wolverine    : v{PROJECTDILS_VERSION}`\n"
+        f"🐺 `𝙒𝙤𝙡𝙫𝙚𝙧𝙞𝙣𝙚        : v{PROJECTDILS_VERSION}`\n"
         
-        f"⛄ `Loaded Modules : {len(modules)}`\n"
+        f"⛄ `𝙇𝙤𝙖𝙙𝙚𝙙 𝙈𝙤𝙙𝙪𝙡𝙚𝙨  : {len(modules)}`\n"
         
-        f"📟 `Bot Speed     : {uptime} `\n"
+        f"📟 `𝘽𝙤𝙩 𝙎𝙥𝙚𝙚𝙙       : {uptime} `\n"
         
         f"`•••••••••••••••••••••••••••••••••••••`\n"
         
-        f"🖥️**WolVeriNe      : [Deploy](https://github.com/ShadoWClub/WolverineUserbot)**\n"
+        f"🖥️**𝙒𝙤𝙡𝙑𝙚𝙧𝙞𝙉𝙚        : [Deploy](https://github.com/ShadoWClub/WolverineUserbot)**\n"
     )
     if ALIVE_LOGO:
         try:
