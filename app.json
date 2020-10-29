@@ -133,7 +133,7 @@
     },
     "ALIVE_LOGO": {
       "description": "Show image/logo in .alive/on message",
-      "value": "https://telegra.ph/file/2b798c54f7da9245410ac.jpg",
+      "value": "https://telegra.ph/file/73c2fc6e7fec6e645c3a6.jpg",
       "required": false
     },
     "G_DRIVE_DATA": {
