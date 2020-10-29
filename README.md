@@ -47,3 +47,8 @@ Google Drive setup tutorial:
 * [Mr.Miss](https://github.com/keselekpermen69) - UserButt
 * [adekmaulana](https://github.com/adekmaulana) - ProjectBish
 * [MoveAngel](https://github.com/MoveAngel) - One4uBot
+
+## Modified and Fixed by
+* [Shadowclub](https://github.com/shadowclub) - Shadowgang
+
+## Made with ❤ from India 🇮🇳 😍
