@@ -34,7 +34,7 @@ Deploy WolveRine to Heroku:
 * [MoveAngel](https://github.com/MoveAngel) - One4uBot
 
 
-##Modified and fixed by 
+## Modified and fixed by 
 * [Shadowclub](https://github.com/shadowclub)-Shadowgang
 
-##Made with ❤ from India 🇮🇳🤩
+## Made with ❤ from India 🇮🇳🤩
