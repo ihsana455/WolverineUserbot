@@ -20,3 +20,15 @@ Best Userbot to manage your account 😻
 Deploy WolveRine to Heroku:
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ShadoWClub/wolverine/tree/master"> <img src="https://telegra.ph/file/3d5baaff9cbb43c5a525e.png" alt="Deploy to Heroku" width="200" height="33.33"/></a></p>
+
+
+
+
+## Credits
+* [aidilaryanto](https://github.com/aidilaryanto) - ProjectDils
+* [RaphielGang](https://github.com/RaphielGang) - Telegram-Paperplane
+* [AvinashReddy3108](https://github.com/AvinashReddy3108) - PaperplaneExtended
+* [Mkaraniya](https://github.com/mkaraniya) & [Dev73](https://github.com/Devp73) - OpenUserBot
+* [Mr.Miss](https://github.com/keselekpermen69) - UserButt
+* [adekmaulana](https://github.com/adekmaulana) - ProjectBish
+* [MoveAngel](https://github.com/MoveAngel) - One4uBot
