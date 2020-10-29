@@ -8,6 +8,13 @@
 <p align="center">
 <img src="https://telegra.ph/file/f90dcf7aa0e4daf69348b.jpg" alt="WOLVERINE USERBOT">
 
+Best Userbot to manage your account 😻
+
+
+## Most powerfull And better Telegram UserBot
+
+## By Team Shadow Gang
+
 
 ## How To Host
 Deploy WolveRine to Heroku:
