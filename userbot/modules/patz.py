@@ -1,4 +1,4 @@
-created by @i_m_smoke 
+©i_m_smoke 
 kangers gib creadits otherwise you r gey. 
 
 import os
