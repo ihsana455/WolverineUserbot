@@ -293,7 +293,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("I'm [WolverineUserbot](https://github.com/ShaDowClub/WolverineUserbot) modules helper...\nplease make your own bot, don't use mine 😋 @WolverineChat")
+                await event.reply("I'm [WolverineUserbot](https://github.com/shadowclub/WolverineUserbot) modules helper...\nplease make your own bot, don't use mine 😋 @WolverineChat")
             else:
                 await event.reply(f"`Hey there {ALIVE_NAME}\n\nI work for you :)`")
 
@@ -327,7 +327,7 @@ with bot:
                         [
                             custom.Button.url(
                                 "GitHub Repo",
-                                "https://github.com/ShadoWClub/WolverineUserBot"),
+                                "https://github.com/shadowclub/WolverineUserbot"),
                             custom.Button.url(
                                 "Support",
                                 "https://t.me/WolverineUpdates")],
