@@ -242,24 +242,24 @@ async def amireallyalive(alive):
     """For .alive command, check if the bot is running."""
     uptime = await get_readable_time((time.time() - StartTime))
     output = (
-        "**Wolverine is alive🦊**\n"
-        f"`•••••••••••••••••••••••••••••••••••••`\n"
+        "**MADE IN 🇮🇳,MADE WITH😻**\n"
+        f"**•••••••••••••••••••••••••••••••**\n"
         
-        f"🧒 `𝙐𝙨𝙚𝙧            :  {DEFAULTUSER}`\n"
+        f"🔹 `Fork By`       :  **{DEFAULTUSER}**\n"
         
-        f"🔥 `𝙋𝙮𝙩𝙝𝙤𝙣 𝙑𝙚𝙧𝙨𝙞𝙤𝙣   : v{python_version()}`\n"
+        f"🔸 `Python`   : v{python_version()}`\n"
         
-        f"⚙️ `𝙏𝙚𝙡𝙚𝙩𝙝𝙤𝙣 𝙑𝙚𝙧𝙨𝙞𝙤𝙣  : v{version.__version__}`\n"
+        f"🔹 `Telethon`  : v{version.__version__}`\n"
         
-        f"🐺 `𝙒𝙤𝙡𝙫𝙚𝙧𝙞𝙣𝙚        : v{PROJECTDILS_VERSION}`\n"
+        f"🔸 `WolveRine`        : v{PROJECTDILS_VERSION}`\n"
         
-        f"⛄ `𝙇𝙤𝙖𝙙𝙚𝙙 𝙈𝙤𝙙𝙪𝙡𝙚𝙨  : {len(modules)}`\n"
+        f"🔹 `Bot Plugins`  : {len(modules)}`\n"
         
-        f"📟 `𝘽𝙤𝙩 𝙎𝙥𝙚𝙚𝙙       : {uptime} `\n"
+        f"🔸 `Wolve UpTime`       : {uptime} `\n"
         
-        f"`•••••••••••••••••••••••••••••••••••••`\n"
+        f"🔹**Join @WolveRineChat For Help**\n"
         
-        f"🖥️**𝙒𝙤𝙡𝙑𝙚𝙧𝙞𝙉𝙚        : [Deploy](https://github.com/ShadoWClub/WolverineUserbot)**\n"
+        f"**[Deploy✔️](https://github.com/ShadoWClub/WolverineUserbot)**\n"
     )
     if ALIVE_LOGO:
         try:
