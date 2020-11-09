@@ -245,21 +245,21 @@ async def amireallyalive(alive):
         "**MADE IN 🇮🇳,MADE WITH😻**\n"
         f"**•••••••••••••••••••••••••••••••**\n"
         
-        f"🔹 `Fork By`       :  **{DEFAULTUSER}**\n"
+        f"🔹 `Fork By`      :  **{DEFAULTUSER}**\n"
         
-        f"🔸 `Python`   : v{python_version()}`\n"
+        f"🔸 `Python`       : **v{python_version()}**\n"
         
-        f"🔹 `Telethon`  : v{version.__version__}`\n"
+        f"🔹`Telethon`     : **v{version.__version__}**\n"
         
-        f"🔸 `WolveRine`        : v{PROJECTDILS_VERSION}`\n"
+        f"🔸 `WolveRine`    : **v{PROJECTDILS_VERSION}**\n"
         
-        f"🔹 `Bot Plugins`  : {len(modules)}`\n"
+        f"🔹`Bot Plugins`  : **{len(modules)}**\n"
         
-        f"🔸 `Wolve UpTime`       : {uptime} `\n"
+        f"🔸 `Wolve UpTime` : **{uptime} **\n"
         
         f"🔹**Join @WolveRineChat For Help**\n"
         
-        f"**[Deploy✔️](https://github.com/ShadoWClub/WolverineUserbot)**\n"
+        f"🔸`WolveRineRepo` :[Deploy✔️](https://github.com/ShadoWClub/WolverineUserbot)**\n"
     )
     if ALIVE_LOGO:
         try:
