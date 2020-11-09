@@ -259,7 +259,7 @@ async def amireallyalive(alive):
         
         f"🔹**Join @WolveRineChat For Help**\n"
         
-        f"🔸`WolveRineRepo` :[Deploy✔️](https://github.com/ShadoWClub/WolverineUserbot)**\n"
+        f"🔸`WolveRineRepo` :**[Deploy✔️](https://github.com/ShadoWClub/WolverineUserbot)**\n"
     )
     if ALIVE_LOGO:
         try:
