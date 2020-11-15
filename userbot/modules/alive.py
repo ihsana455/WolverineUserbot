@@ -242,7 +242,7 @@ async def amireallyalive(alive):
     """For .alive command, check if the bot is running."""
     uptime = await get_readable_time((time.time() - StartTime))
     output = (
-        "**MADE IN 🇮🇳,MADE WITH😻**\n"
+        "**Wolferine Userbot😻**\n"
         f"**•••••••••••••••••••••••••••••••**\n"
         
         f"🔹 `Fork By`      :  **{DEFAULTUSER}**\n"
@@ -257,9 +257,6 @@ async def amireallyalive(alive):
         
         f"🔸 `Wolve UpTime` : **{uptime} **\n"
         
-        f"🔹**Join @WolveRineChat For Help**\n"
-        
-        f"🔸`WolveRineRepo` :**[Deploy✔️](https://github.com/ShadoWClub/WolverineUserbot)**\n"
     )
     if ALIVE_LOGO:
         try:
