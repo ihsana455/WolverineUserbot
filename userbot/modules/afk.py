@@ -182,9 +182,9 @@ async def afk_on_pm(sender):
                 if USERS[sender.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
                         await sender.reply(
-                            "I'm still AFK,I will be back soon."
-                            f"\nReason: `{AFKREASON}`."
-                            f"\nAFK from: {afk_str}"
+                            "Fajar sedang afk,tunggu sampai dia kembali."
+                            f"\nAlasan: `{AFKREASON}`."
+                            f"\nAFK sejak: {afk_str}"
                         )
                     else:
                         await sender.reply(str(choice(AFKSTR)))
